@@ -43,3 +43,5 @@ publico real obtenerMontoTotal()
  retornar este.montoTotal
 FinMetodo
 
+// fALTA EL METODO QUE CONVIERTE A CADENA LOS DATOS QUE MANEJAN LOS ATRIBUTOS DE LA CLASE 
+
