@@ -1,0 +1,18 @@
+publico clase ManejoCola
+
+Cola cola = nuevo Cola (10)
+
+publico vacio ingresarCliente(Cliente cliente)
+ si cola.isfull() entonces
+  imprimir ("Cola llena,vuelva a intentar luego")
+ sino 
+  cola.push(cliente)
+FinMetodo
+
+publico vacio asignarEntradas()
+ si cola.isEmpty()
+  imprimir("No se puede asignar,la cola esta vacioa")
+ sino
+  Cliente c= cola.pop()
+  imprimir("{c.obtenerCantidadBoletos} entradas han sido asignadas al cliente {c.obtenerNombre})
+FinMetodo
